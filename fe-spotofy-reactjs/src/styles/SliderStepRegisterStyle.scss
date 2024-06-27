@@ -1,0 +1,23 @@
+.slider-container {
+  width: 380px;
+  position: relative;
+  background-color: #727272;
+}
+
+.step {
+  flex: 1;
+  text-align: center;
+  height: 2px;
+  background-color: #727272;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.step.active {
+  background-color: #1ed760;
+  inline-size: 33.3333%;
+}

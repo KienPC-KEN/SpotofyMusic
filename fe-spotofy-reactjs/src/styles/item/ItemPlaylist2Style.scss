@@ -1,0 +1,26 @@
+.layout-item-2 {
+  height: 324px;
+  width: 224px;
+  margin-right: 30px;
+  margin-bottom: 64px;
+
+  .image-item {
+    margin-top: 20px;
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-bottom: 25px;
+  }
+  .text-name-item {
+    color: white;
+  }
+  .text-author-item {
+    font-size: 18px;
+    color: #b3b3b3;
+    display: -webkit-box; /* Cần thiết để sử dụng line-clamp */
+    -webkit-box-orient: vertical; /* Đặt định hướng hộp */
+    -webkit-line-clamp: 2; /* Giới hạn số dòng và thêm dấu chấm lửng khi tràn */
+    overflow: hidden; /* Ẩn nội dung tràn */
+    word-wrap: break-word; /* Cho phép ngắt từ để xuống dòng */
+    max-width: 90%;
+  }
+}

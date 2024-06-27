@@ -1,0 +1,27 @@
+.menu {
+  font-size: 16px;
+  padding-top: 70px;
+  padding-right: 48px;
+  width: 310px;
+
+  .menu-item {
+    color: darkgrey;
+    margin-bottom: 20px;
+    font-weight: bold;
+    align-items: center;
+    img {
+      width: 24px;
+      height: 24px;
+      margin-right: 20px;
+    }
+  }
+  .menu-item.item-new-playlist {
+    margin-top: 29px;
+  }
+  .menu-item:hover {
+    color: white;
+  }
+  .menu-item.active {
+    color: white;
+  }
+}

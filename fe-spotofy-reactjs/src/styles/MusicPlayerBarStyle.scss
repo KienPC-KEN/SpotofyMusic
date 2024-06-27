@@ -1,0 +1,41 @@
+.name-music {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+.author-music {
+  font-size: 16px !important;
+  color: #b3b3b3;
+}
+.music-status {
+  .slider-music {
+    margin-top: 6px;
+    .slider {
+      margin-top: 10px;
+      -webkit-appearance: none;
+      appearance: none;
+      width: 552px;
+      height: 5px;
+      border-radius: 3px;
+      outline: none;
+    }
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+    /* Ẩn nút trượt trong Firefox */
+    .slider::-moz-range-thumb {
+      opacity: 0;
+    }
+    /* Ẩn nút trượt trong Internet Explorer và Edge */
+
+    .slider::-ms-thumb {
+      opacity: 0;
+    }
+    .time-slider {
+      font-size: 16px;
+    }
+  }
+}

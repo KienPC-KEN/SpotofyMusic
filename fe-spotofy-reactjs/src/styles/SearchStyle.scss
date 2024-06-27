@@ -1,0 +1,28 @@
+.input-search {
+  width: 468px;
+  height: 52px;
+  padding-left: 60px;
+  padding-right: 10px;
+  font-size: 18px;
+}
+.ic-search {
+  position: relative;
+  right: 452px;
+}
+
+.layout-item-search {
+  height: 240px;
+  overflow: hidden;
+  .text-name-item {
+    width: 45%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .image-item {
+    position: relative;
+    top: 130px;
+    left: 20px;
+    transform: rotate(30deg);
+  }
+}

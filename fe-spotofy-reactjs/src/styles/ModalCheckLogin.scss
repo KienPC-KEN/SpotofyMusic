@@ -1,0 +1,66 @@
+.container-modal {
+  justify-content: space-between;
+  position: relative;
+  border-radius: 8px;
+  width: 810px;
+  right: 130px;
+  background-color: white;
+
+  .btn-close-modal {
+    position: relative;
+    top: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #a7a7a7;
+  }
+  .btn-close-modal:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    color: white;
+  }
+
+  .block-title {
+    margin: 0;
+    padding: 0;
+    line-height: 32px;
+    text-align: center;
+    .title-modal {
+      color: #fff;
+      font-weight: 700;
+      margin: 8px 0 24px;
+    }
+    .text-button-register {
+      color: black;
+      font-size: 1rem;
+      font-weight: 700;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 32px;
+      padding-right: 32px;
+      background-color: #1ed760;
+      cursor: pointer;
+      border-radius: 9999px;
+    }
+    .text-button-register:hover {
+      transform: scale(1.05);
+    }
+    .text-button-login {
+      width: 196px;
+      margin-top: 24px;
+      color: white;
+      font-size: 1rem;
+      font-weight: 700;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 32px;
+      padding-right: 32px;
+      border: 1px solid #727272;
+      cursor: pointer;
+      border-radius: 9999px;
+    }
+    .text-button-login:hover {
+      transform: scale(1.05);
+      border: 1px solid #ffffff;
+    }
+  }
+}
