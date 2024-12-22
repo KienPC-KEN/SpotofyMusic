@@ -9,7 +9,7 @@ const loginRoute = require("./routes/auth.route");
 const app = express();
 
 const uri =
-  "mongodb+srv://phungchikien196:ERhbIN6rfSvq4j3D@cluster0.zkirzke.mongodb.net/spotofy";
+  "mongodb+srv://phungchikien196:9cvYmbYYJvCUNs16@cluster0.zkirzke.mongodb.net/spotofy";
 mongoose.connect(uri);
 
 app.use(express.json());

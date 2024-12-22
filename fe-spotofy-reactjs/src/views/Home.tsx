@@ -42,8 +42,8 @@ const Home: React.FC<DataProps> = ({ playlistWithSong }) => {
         {playlistWithSong &&
           playlistWithSong.length > 0 &&
           playlistWithSong
-            .filter((item) => item.playlist.check_playlist.includes(0))
-            .map((item) => (
+            .filter(item => item.playlist.check_playlist.includes(0))
+            .map(item => (
               <ItemPlayList1
                 key={item.playlist.id}
                 id={item.playlist.id}

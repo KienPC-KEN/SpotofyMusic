@@ -29,9 +29,9 @@ function App() {
       });
   };
 
-  if (error) {
-    return <div>{error}</div>;
-  }
+  // if (error) {
+  //   return <div>{error}</div>;
+  // }
 
   return (
     <Container fluid className="p-0">
